@@ -1,0 +1,11 @@
+echo $XDG_SESSION_TYPE
+
+{sudo systemctl start waydroid-container
+waydroid session start
+waydroid show-full-ui}
+
+
+{
+sudo apt purge xubuntu-desktop xfce4* thunar* mousepad* ristretto* parole* xfce4-goodies -y
+sudo apt autoremove --purge -y
+}
