@@ -1,0 +1,7 @@
+f=open("file3.txt")
+data=f.readline()
+print(data)
+data2=f.readline()
+print(data2)
+data3=f.readline()
+print(data3)
