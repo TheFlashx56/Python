@@ -1,47 +1,140 @@
-# Python Learning Journey 🐍
+# 🐍 Python Learning Journey
 
-This repository contains my Python learning journey, including practice programs, exercises, mini-projects, and GUI applications. It serves as a record of my progress as I learn Python from the basics to more advanced concepts.
+Welcome to my Python learning repository! This repository contains my complete Python learning journey, starting from the basics and progressing to advanced topics, along with practice problems and mini/mega projects.
 
-## 📚 Topics Covered
+The code is organized chapter-wise, making it easy to follow and revise Python concepts.
 
-* Python Fundamentals
-* Variables & Data Types
-* Input & Output
-* Operators
-* Conditional Statements
-* Loops
-* Functions
-* Strings
-* Lists
-* Tuples
-* Dictionaries
-* Sets
-* File Handling
-* Exception Handling
-* Object-Oriented Programming (OOP)
-* Modules & Packages
-* Virtual Environments
-* GUI Development with Tkinter
-* GUI Development with CustomTkinter
-* Mini Projects
+---
+
+## 📚 Contents
+
+* ✅ Basic Python
+* ✅ Intermediate Python
+* ✅ Advanced Python
+* ✅ Practice Sets (PS)
+* ✅ Mini Projects
+* ✅ Mega Projects
+
+---
+
+## 📖 Learning Path
+
+### 🟢 Basic
+
+Covers the fundamentals of Python.
+
+| Chapter   | Topics                                                |
+| --------- | ----------------------------------------------------- |
+| Chapter 1 | Introduction, Modules, Calculator                     |
+| Chapter 2 | Variables, Data Types, Operators, Type Casting, Input |
+| Chapter 3 | Strings and String Functions                          |
+| Chapter 4 | Lists and List Methods                                |
+| Chapter 5 | Dictionaries and Sets                                 |
+| Chapter 6 | Conditional Statements                                |
+| Chapter 7 | Loops                                                 |
+| Chapter 8 | Functions and Recursion                               |
+
+Each chapter also contains a **Practice Set (PS)** for solving exercises.
+
+---
+
+### 🟡 Intermediate
+
+Focuses on file handling and Object-Oriented Programming.
+
+| Chapter    | Topics                                                       |
+| ---------- | ------------------------------------------------------------ |
+| Chapter 9  | File Handling                                                |
+| Chapter 10 | Classes, Objects, Constructors                               |
+| Chapter 11 | Inheritance, Class Methods, Properties, Operator Overloading |
+
+Includes practice problems after every chapter.
+
+---
+
+### 🔴 Advanced
+
+Covers modern Python features and advanced concepts.
+
+| Chapter    | Topics                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------- |
+| Chapter 12 | Exception Handling, Walrus Operator, Match-Case, Global Variables, Enumerate, List Comprehensions |
+| Chapter 13 | Virtual Environments, Lambda Functions, Join, String Formatting, Map, Filter, Reduce              |
+
+Practice sets are included for every chapter.
+
+---
+
+## 🚀 Projects
+
+### 📌 Basic Projects
+
+* Calculator
+* Beginner Python Programs
+
+### 📌 Intermediate Projects
+
+* Project 1
+* Project 2
+
+### 📌 Mega Projects
+
+#### 🤖 Jarvis Voice Assistant
+
+A Python-based voice assistant featuring:
+
+* Speech Recognition
+* Text-to-Speech
+* Music Library
+* Voice Commands
+* Modular Design
+
+#### 💬 Mega Project 2
+
+A Python automation project that includes message parsing and automation utilities.
+
+---
 
 ## 📂 Repository Structure
 
 ```text
-Python/
-├── Basics/
-├── Practice/
-├── Exercises/
-├── Projects/
-│   ├── 01-Calculator/
-│   └── ...
-├── Notes/
+.
+├── Basic/
+│   ├── Chapter 1 - Chapter 8
+│   ├── Practice Sets
+│   └── Project 1
+│
+├── Medium/
+│   ├── Chapter 9 - Chapter 11
+│   ├── Practice Sets
+│   └── Project 2
+│
+├── Advanced/
+│   ├── Chapter 12 - Chapter 13
+│   ├── Practice Sets
+│   ├── Mega Project 1 - Jarvis
+│   └── Mega Project 2
+│
 └── README.md
 ```
 
-> The folder structure will continue to grow as I learn new topics.
+---
 
-## 🚀 Running the Code
+## 💻 Requirements
+
+* Python 3.x
+
+Some projects may require additional packages.
+
+Install dependencies when a project contains a `requirements.txt` file.
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running a Program
 
 Clone the repository:
 
@@ -49,36 +142,69 @@ Clone the repository:
 git clone https://github.com/TheFlashx56/Python.git
 ```
 
-Go to the repository:
+Go to the desired chapter:
 
 ```bash
-cd Python
+cd Python/Basic/Chapter\ 1
 ```
 
 Run any Python file:
 
 ```bash
-python3 filename.py
+python first.py
 ```
 
-If a project has dependencies:
+---
 
-```bash
-pip install -r requirements.txt
-```
+## 🎯 Goals of this Repository
 
-## 🎯 Goals
+* Learn Python from beginner to advanced.
+* Practice every concept with exercises.
+* Build real-world projects.
+* Keep all learning resources in one place.
+* Track personal programming progress.
 
-* Build a strong foundation in Python.
-* Practice programming through exercises.
-* Develop real-world mini projects.
-* Learn GUI development with Tkinter and CustomTkinter.
-* Improve problem-solving skills.
+---
+
+## 🛠 Technologies
+
+* Python 3
+* VS Code
+* Git
+* GitHub
+
+---
 
 ## 📈 Progress
 
-This repository is updated regularly as I continue learning Python and build new projects.
+* ✅ Basic Python
+* ✅ Intermediate Python
+* ✅ Advanced Python
+* ✅ Practice Problems
+* ✅ Mini Projects
+* 🚧 More automation and AI projects coming soon.
 
-## 📄 License
+---
 
-This repository is intended for learning and educational purposes.
+## 🤝 Contributions
+
+This repository is primarily for my personal learning journey. However, suggestions and improvements are always welcome.
+
+---
+
+## ⭐ Support
+
+If you found this repository helpful, consider giving it a **⭐ Star** on GitHub.
+
+It motivates me to continue building and sharing more Python projects.
+
+---
+
+## 👨‍💻 Author
+
+**Mubashir Ali**
+
+Computer Science Student
+
+Learning Python • Automation • AI • Open Source
+
