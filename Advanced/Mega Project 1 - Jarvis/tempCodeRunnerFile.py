@@ -1,0 +1,1 @@
+speak("Initializing Jarvis...")
